@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy-to-github-releases:
-    runs-on: self-hosted
+    runs-on: AAPNA-LAP-181
     steps:
      - name: Checkout Repository
        uses: actions/checkout@v4
